@@ -1,0 +1,39 @@
+body {margin: 0; font-family: sans-serif;}
+
+.header {margin: 20px; color: white; background: green; height: 70px;}
+
+.logo {float: left;}
+
+.navbar {float: right;}
+
+.navbar ul{list-style: none; padding-top: 10px;}
+
+.navbar ul li{display: inline; margin: 10px;}
+
+.navbar ul li a{text-decoration: none; color: white; }
+
+.navbar ul li a:hover {border-bottom: 2px solid white;}
+
+.container .header h2{color: white;text-align: center;justify-content: center;padding-top: 25px;font-size: 50px;}
+
+.container .data {width: 900px;height: 350px; margin: auto; margin-top: 40px; margin-bottom: 40px; background-color: rgb(255,255,255,0.5); }
+
+.data h2 {color:black;font-size: 18px; padding-top: 50px;}
+
+.data p{margin-top: 5px; }
+
+.data img{width: 75px;height: 50px;margin-top: 50px; margin-left: 50px; margin-right: 50px;}
+
+.gambar {width: 90%; display: grid; grid-template-columns: 1fr 1fr 1fr; margin:auto;}
+
+.gambar .foto img{width: 300px;}
+
+.foto {border: 1px solid black; margin:10px; text-align: center; }
+
+.foto a{border: 1px solid green; padding:10px; color: white; background: green; text-decoration: none; border-radius: 20px; cursor: pointer;}
+
+.footer {text-align: center; margin: 20px; color: white; background: green; height: 70px;}
+
+.footer p{padding-top:25px;}
+
+.footer a{text-decoration: none; color: white; }
